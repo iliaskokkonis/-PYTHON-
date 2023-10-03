@@ -1,0 +1,63 @@
+RECIPE MANAGEMENT PROGRAM 
+
+We have created a recipe management program that allows users to store, view, modify, and delete recipes. Additionally, users can "cook" along with the program, following each step presented, and track the recipe's progress using a percentage scale. 
+
+INSTALLATION AND USAGE INSTRUCTIONS 
+
+To install the program, download the file: 
+
+RECIPE_PROGRAM.py 
+
+and run it using the PyCharm IDE. 
+
+The program starts with an initial screen where users input recipe details. The following buttons are available: 
+
+ADD 
+
+DELETE 
+
+SEARCH-DISPLAY 
+
+MODIFY 
+
+COOK 
+
+Users can perform corresponding actions by clicking these buttons. 
+
+ADDING A RECIPE 
+
+When adding a recipe, users must fill out all fields; otherwise, they are alerted. Note: To utilize the "Cook...!" button effectively, steps in the recipe must be separated by commas at the end of each step. No commas should exist within a step, as this affects the functionality of the "Cook" button. 
+
+Example step entry: 
+
+Step 1 - Boil - Boil the pasta - Ingredients needed -> pasta - Duration 10 minutes, 
+
+Recommended delimiter: " - " 
+
+Multiple steps can be added similarly, separated by commas. 
+
+DELETING A RECIPE 
+
+To delete a recipe, users enter its name and click the delete button. Success or failure notifications are displayed based on the input. 
+
+MODIFYING A RECIPE 
+
+To modify a recipe, users input its name. If entered correctly, a new window opens displaying the original entry. Users can edit as desired and click the "SAVE" button. 
+
+SEARCHING - DISPLAYING A RECIPE 
+
+To find a recipe, users enter its name and click the "SEARCH - DISPLAY RECIPE" button. A new window opens, displaying the organized contents of the recipe. To close it, users click the "X" button. 
+
+COOKING 
+
+Finally, there is the cooking function. If the user has added steps correctly using commas, they can view each step of their recipe one by one, navigate through them, and be notified when they have completed the recipe. By entering the recipe name and clicking "Cook," a new window appears displaying the first step of the recipe. It contains navigation buttons "NEXT STEP" and "PREVIOUS STEP" for respective actions. At the bottom of the initial window, users can check the percentage of the recipe's completion. 
+
+We wish you happy and creative cooking..! 
+
+Kokkonis Ilias 
+
+MEMBER - 2 
+
+MEMBER - 3 
+
+ 
